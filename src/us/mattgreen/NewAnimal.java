@@ -10,6 +10,6 @@ public class NewAnimal {
         do {
         System.out.println("What animal would you like to create?\nA: Cat\nB: Dog\nC: Teacher\n" +
                 "D: To Exit");
-        } while();
+        }
     }
 }
