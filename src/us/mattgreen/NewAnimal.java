@@ -23,8 +23,11 @@ public class NewAnimal {
             {
                 case "a":
                 case "A":
-                    System.out.println("A Cat?! My favorite!\nHow many mice has your Cat killed?");
-                    miceKillCount = Integer.parseInt(keyboard.nextLine());
+                    try {
+                        System.out.println("A Cat?! My favorite!\nHow many mice has your Cat killed?");
+                        miceKillCount = Integer.parseInt(keyboard.nextLine());
+                    }
+
                     System.out.println("What is your cats name?");
                     name = keyboard.nextLine();
                     Cat createCat = new Cat(miceKillCount, name);
